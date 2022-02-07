@@ -1,0 +1,66 @@
+.c1{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 1200px;
+    flex-wrap: wrap;
+}
+.card{
+    position: relative;
+    width: 450px;
+    height: 273px;
+    border-radius: 25px;
+    margin-top: 100px;
+    background-image: linear-gradient(#000046 ,#1CB5E0);
+    box-shadow: 10px 15px 30px rgb(0, 0, 0);
+}
+.bank-name{
+    display: flex;
+    justify-content: right;
+}
+.card-type{
+    display: flex;
+    justify-content: right;
+    align-items: center; 
+}
+.card-number{
+    font-size: 25px;
+    display: flex;
+    justify-content:start;
+    margin-bottom: 5px;
+}
+.valid-from{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    margin-left: 30px;
+    color: aliceblue;
+}
+.card-validity{display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    color: aliceblue;
+}
+@media (min-width: 481px) and (max-width: 767px) {
+    .c1{
+        width:450px;
+    }
+    
+}
+
+
+/*##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px*/
+@media (min-width: 320px) and (max-width: 480px) {
+    .c1{
+        width:360px;
+    }
+    .card{
+        width: 360px;
+    }
+    
+
+}
